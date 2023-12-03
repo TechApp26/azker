@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alfiten103"
+    android:background="@drawable/bb">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/icon1"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="40dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/alfiten_Text1"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon2"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/alfiten_Text2"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon3"
+                android:layout_width="match_parent"
+                android:layout_height="495dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/alfiten_Text3"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon4"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/alfiten_Text4"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

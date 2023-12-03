@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Azkar"
+    android:orientation="vertical"
+    android:background="@drawable/kl">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أذكار الصباح والمساء"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية الهم والحزن و الكرب "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية رمضان"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تعلم الوضوء و الصلاة"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية السفر "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية يوم الجمعه "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية الرسول "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية الأنبياء "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أدعية مستجابة "
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#888351"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

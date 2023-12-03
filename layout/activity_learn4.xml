@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".learn4"
+    android:background="@drawable/bb">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="كيفية الوضوء"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:paddingRight="90dp"
+                android:textColor="#130208"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el2" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el3" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el4" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el5" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el6" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el7" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el8" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/el9" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="كيفية الصلاة"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:paddingRight="90dp"
+                android:textColor="#130208"/>
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul1" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul2" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul3" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul4" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul5" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul6" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul7" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul8" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul9" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul10" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul11" />
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ul12" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ayat7"
+    android:background="#EAD38F">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon1"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView1111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text24"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.626"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon2"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.183"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text25"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.643"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon3"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.081"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text26"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon4"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.159"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text27"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon5"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text28"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon6"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.113"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text29"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon7"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text30"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.591"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon8"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.156"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text31"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.585"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon9"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.135"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text32"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.565"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon10"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text33"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.646"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon11"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text34"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.608"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon13"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.159"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text35"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.579"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon14"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.147"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text36"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.574"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon15"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView155"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.18"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView155"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text37"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon16"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView166"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/textView166"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView166"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text38"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon17"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView177"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.147"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView177"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text39"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon18"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView188"
+            app:layout_constraintStart_toStartOf="@+id/textView188"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView188"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text40"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon19"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView199"
+            app:layout_constraintStart_toStartOf="@+id/textView199"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text41"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/icon20"
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:layout_margin="20dp"
+          android:background="@drawable/vv"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="70dp"
+            android:paddingRight="12dp"
+            android:text="بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ"
+            android:textColor="#05800A "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView202"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="50dp"
+            android:text="@string/alianbia_Text42"
+            android:textColor="#05800A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+</LinearLayout>

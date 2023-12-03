@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".eldeen63"
+    android:background="@drawable/bb">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/icon1"
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/eldeen_Text1"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon2"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/eldeen_Text2"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon3"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/eldeen_Text3"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon4"
+                android:layout_width="match_parent"
+                android:layout_height="595dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="60dp"
+                    android:text="@string/eldeen_Text4"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon5"
+                android:layout_width="match_parent"
+                android:layout_height="530dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="60dp"
+                    android:text="@string/eldeen_Text5"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon6"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/eldeen_Text6"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/icon7"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bbb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="65dp"
+                    android:text="@string/eldeen_Text7"
+                    android:textColor="#9F7A09"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
